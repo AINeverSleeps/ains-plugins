@@ -1,0 +1,16 @@
+{
+  "name": "aineversleeps",
+  "description": "Claude plugins from AI Never Sleeps (Jonathan Chan).",
+  "owner": {
+    "name": "AI Never Sleeps",
+    "email": "jonathan@aineversleeps.net",
+    "url": "https://www.aineversleeps.net"
+  },
+  "plugins": [
+    {
+      "name": "consulting-os",
+      "source": "./plugins/consulting-os",
+      "description": "The AINS Consulting OS: 51 consulting methods, from the day-one answer to the final deck, served live to Claude and kept current. Requires an AI Never Sleeps API key."
+    }
+  ]
+}
