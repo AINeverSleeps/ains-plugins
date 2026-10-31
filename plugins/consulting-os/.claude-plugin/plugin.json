@@ -1,6 +1,6 @@
 {
   "name": "consulting-os",
-  "displayName": "AINS Consulting OS",
+  "displayName": "Consulting OS",
   "version": "1.0.0",
   "description": "Jonathan Chan's consulting method library for Claude: 51 methods, from framing the problem to the final deck, served live from AI Never Sleeps and kept current every time the models change. Requires an AINS API key.",
   "author": {

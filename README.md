@@ -2,7 +2,7 @@
 
 Claude plugins from [AI Never Sleeps](https://www.aineversleeps.net) (Jonathan Chan).
 
-## AINS Consulting OS
+## Consulting OS
 
 The consulting method library from The Consulting AI Operating System. It covers 51 methods, from framing a vague brief and building the issue tree to the model, the storyline and the final deck. The methods are served live to Claude from AI Never Sleeps, so every member always has the current version. When the models change, the library changes, and there's nothing to reinstall.
 
@@ -22,7 +22,7 @@ To get plugin updates automatically, open `/plugin`, go to Marketplaces, select 
 ### Use it in the Claude app (web, desktop, Cowork)
 
 1. Open **Customize > Connectors** and choose **Add custom connector**.
-2. Name (if it asks): `AINS Consulting OS`
+2. Name (if it asks): `Consulting OS`
 3. URL: `https://www.aineversleeps.net/api/consulting-os/mcp`
 4. Authentication: choose **No sign-in**.
 5. Under **Request headers**, pick `authorization` from the list and mark it required. For the value, type `Bearer`, a space, then paste your key: `Bearer ains_...`

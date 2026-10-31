@@ -1,11 +1,11 @@
 ---
 name: consulting-os
-description: "Use for any consulting or advisory work: framing a vague brief, hypotheses and issue trees, market sizing, research and interview synthesis, models, business cases and valuation, proposals and statements of work, storylines, ghost decks and slides, steering packs, workshops and client management. Loads the right method from the AINS Consulting OS library and follows it."
+description: "Use for any consulting or advisory work: framing a vague brief, hypotheses and issue trees, market sizing, research and interview synthesis, models, business cases and valuation, proposals and statements of work, storylines, ghost decks and slides, steering packs, workshops and client management. Loads the right method from the Consulting OS library and follows it."
 ---
 
-# AINS Consulting OS
+# Consulting OS
 
-You have the AINS Consulting OS connector (the `consulting-os` MCP server): Jonathan Chan's library of consulting methods. Each method is a full skill: when to use it, the steps, worked examples and the evidence controls. The library is served live, so it is always the current version.
+You have the Consulting OS connector (the `consulting-os` MCP server): Jonathan Chan's library of consulting methods. Each method is a full skill: when to use it, the steps, worked examples and the evidence controls. The library is served live, so it is always the current version.
 
 ## How to work
 
@@ -36,7 +36,7 @@ You have the AINS Consulting OS connector (the `consulting-os` MCP server): Jona
 The library needs an active AINS API key. Tell the user:
 
 - **Claude Code:** run `/plugin configure consulting-os@aineversleeps` and paste the key.
-- **Claude app (web, desktop, Cowork):** Customize > Connectors > the AINS Consulting OS connector, with the key as the API key / bearer token.
+- **Claude app (web, desktop, Cowork):** remove the Consulting OS connector under Customize > Connectors and add it again: Authentication **No sign-in**, then under **Request headers** pick `authorization` with the value `Bearer <key>` (the word Bearer, a space, then the key).
 - **Get or check a key:** https://www.aineversleeps.net/members/consulting-os
 
 Do not try to reproduce a method from memory when the library is unavailable. Say what is missing.
