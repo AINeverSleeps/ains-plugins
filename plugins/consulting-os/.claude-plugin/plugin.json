@@ -2,6 +2,7 @@
   "name": "consulting-os",
   "displayName": "Consulting OS",
   "version": "1.0.0",
+  "license": "MIT",
   "description": "Jonathan Chan's consulting method library for Claude: 51 methods, from framing the problem to the final deck, served live from AI Never Sleeps and kept current every time the models change. Requires an AINS API key.",
   "author": {
     "name": "AI Never Sleeps (Jonathan Chan)",
@@ -10,7 +11,14 @@
   },
   "homepage": "https://www.aineversleeps.net/consulting-ai-os",
   "repository": "https://github.com/AINeverSleeps/ains-plugins",
-  "keywords": ["consulting", "strategy", "problem-solving", "storylining", "financial-analysis", "proposals"],
+  "keywords": [
+    "consulting",
+    "strategy",
+    "problem-solving",
+    "storylining",
+    "financial-analysis",
+    "proposals"
+  ],
   "documentationUrl": "https://www.aineversleeps.net/members/consulting-os",
   "supportUrl": "https://www.aineversleeps.net/members/consulting-os",
   "privacyPolicyUrl": "https://www.aineversleeps.net/privacy-policy",

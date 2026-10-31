@@ -47,4 +47,4 @@ Email jonathan@aineversleeps.net.
 
 ---
 
-This repository holds the plugin wrapper only. The method library is served to members and is copyright AI Never Sleeps. All rights reserved.
+This repository holds the plugin wrapper only, released under the MIT licence (see LICENSE). The method library itself is served to members from AI Never Sleeps and is not covered by that licence: it is copyright AI Never Sleeps, all rights reserved.
