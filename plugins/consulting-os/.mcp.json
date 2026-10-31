@@ -2,10 +2,7 @@
   "mcpServers": {
     "consulting-os": {
       "type": "http",
-      "url": "https://www.aineversleeps.net/api/consulting-os/mcp",
-      "headers": {
-        "Authorization": "Bearer ${user_config.api_key}"
-      }
+      "url": "https://www.aineversleeps.net/api/consulting-os/mcp"
     }
   }
 }

@@ -6,31 +6,32 @@ Claude plugins from [AI Never Sleeps](https://www.aineversleeps.net) (Jonathan C
 
 The consulting method library from The Consulting AI Operating System. It covers 51 methods, from framing a vague brief and building the issue tree to the model, the storyline and the final deck. The methods are served live to Claude from AI Never Sleeps, so every member always has the current version. When the models change, the library changes, and there's nothing to reinstall.
 
-**Requires an AINS API key.** The key is included with [The Consulting AI Operating System](https://www.aineversleeps.net/consulting-ai-os). Members copy it from [aineversleeps.net/members/consulting-os](https://www.aineversleeps.net/members/consulting-os).
+**Requires a Consulting OS membership.** It's included with [The Consulting AI Operating System](https://www.aineversleeps.net/consulting-ai-os), or [on its own](https://www.aineversleeps.net/consulting-os). You sign in with the email you bought with. Full guide: [aineversleeps.net/consulting-os/setup](https://www.aineversleeps.net/consulting-os/setup).
+
+### Use it in the Claude app (web, desktop, Cowork)
+
+1. Open **Customize > Connectors** and choose **Add custom connector**.
+2. Name: `Consulting OS`. URL: `https://www.aineversleeps.net/api/consulting-os/mcp`
+3. Click **Add**, then **Connect**.
+4. Sign in with the email you bought with. Open the emailed link in the same browser and you'll go straight back to Claude, connected.
+
+Then start a new chat and ask, for example: *"Use Consulting OS to frame this problem and give me a day-one answer: ..."*
+
+On a Team or Enterprise plan, an Owner adds the connector first (Organization settings > Connectors), then members click Connect.
 
 ### Install in Claude Code
 
 ```text
 /plugin marketplace add AINeverSleeps/ains-plugins
 /plugin install consulting-os@aineversleeps
+/mcp
 ```
 
-Paste your API key when asked. To change it later, run `/plugin configure consulting-os@aineversleeps`.
+In `/mcp`, pick **consulting-os** and choose Authenticate.
 
 To get plugin updates automatically, open `/plugin`, go to Marketplaces, select **aineversleeps** and choose **Enable auto-update**. The methods themselves always come live from the server, so you get those updates either way.
 
-### Use it in the Claude app (web, desktop, Cowork)
-
-1. Open **Customize > Connectors** and choose **Add custom connector**.
-2. Name (if it asks): `Consulting OS`
-3. URL: `https://www.aineversleeps.net/api/consulting-os/mcp`
-4. Authentication: choose **No sign-in**.
-5. Under **Request headers**, pick `authorization` from the list and mark it required. For the value, type `Bearer`, a space, then paste your key: `Bearer ains_...`
-6. Click **Add**.
-
-Then start a new chat and ask, for example: *"Use the Consulting OS to frame this problem and give me a day-one answer: ..."*
-
-Request headers are still rolling out, so some Claude accounts don't show that section yet. If yours doesn't, email jonathan@aineversleeps.net.
+Tools that can't sign in (VS Code Copilot, your own scripts) can use an API key from [aineversleeps.net/members/consulting-os](https://www.aineversleeps.net/members/consulting-os), sent as `Authorization: Bearer <key>`.
 
 ### What's inside
 
@@ -39,7 +40,7 @@ Request headers are still rolling out, so some Claude accounts don't show that s
 
 ### Your data
 
-The connector only sends method names and search words to AI Never Sleeps, to fetch methods. Your documents and conversations stay in Claude. See the [privacy policy](https://www.aineversleeps.net/privacy-policy).
+The connector receives the method names and search words Claude sends it, plus your sign-in email so it can check your membership. Your documents and conversations stay in Claude. See the [privacy policy](https://www.aineversleeps.net/privacy-policy).
 
 ### Support
 

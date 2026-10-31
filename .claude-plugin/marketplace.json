@@ -10,7 +10,7 @@
     {
       "name": "consulting-os",
       "source": "./plugins/consulting-os",
-      "description": "Consulting OS: 51 consulting methods, from the day-one answer to the final deck, served live to Claude and kept current. Requires an AI Never Sleeps API key."
+      "description": "Consulting OS: 51 consulting methods, from the day-one answer to the final deck, served live to Claude and kept current. Sign in with a Consulting OS membership."
     }
   ]
 }

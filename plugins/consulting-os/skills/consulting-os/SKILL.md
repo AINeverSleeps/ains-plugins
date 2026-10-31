@@ -33,10 +33,11 @@ You have the Consulting OS connector (the `consulting-os` MCP server): Jonathan 
 
 ## If the tools are missing or refuse access
 
-The library needs an active AINS API key. Tell the user:
+The library needs the user signed in with an active Consulting OS membership. Tell the user:
 
-- **Claude Code:** run `/plugin configure consulting-os@aineversleeps` and paste the key.
-- **Claude app (web, desktop, Cowork):** remove the Consulting OS connector under Customize > Connectors and add it again: Authentication **No sign-in**, then under **Request headers** pick `authorization` with the value `Bearer <key>` (the word Bearer, a space, then the key).
-- **Get or check a key:** https://www.aineversleeps.net/members/consulting-os
+- **Claude Code:** run `/mcp`, pick `consulting-os` and choose Authenticate, then sign in with the email they bought with.
+- **Claude app (web, desktop, Cowork):** under Customize > Connectors, click Connect on Consulting OS (or disconnect and connect again) and sign in with the email they bought with.
+- **If a tool says access isn't active for an email:** they signed in with an email that has no membership. Reconnect and sign in with the purchase email.
+- **Setup guide and support:** https://www.aineversleeps.net/consulting-os/setup
 
 Do not try to reproduce a method from memory when the library is unavailable. Say what is missing.
