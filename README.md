@@ -22,11 +22,15 @@ To get plugin updates automatically, open `/plugin`, go to Marketplaces, select 
 ### Use it in the Claude app (web, desktop, Cowork)
 
 1. Open **Customize > Connectors** and choose **Add custom connector**.
-2. Name: `AINS Consulting OS`
+2. Name (if it asks): `AINS Consulting OS`
 3. URL: `https://www.aineversleeps.net/api/consulting-os/mcp`
-4. Authentication: **API key / bearer token**. Paste your key.
+4. Authentication: choose **No sign-in**.
+5. Under **Request headers**, pick `authorization` from the list and mark it required. For the value, type `Bearer`, a space, then paste your key: `Bearer ains_...`
+6. Click **Add**.
 
-Then ask, for example: *"Use the Consulting OS to frame this problem and give me a day-one answer: ..."*
+Then start a new chat and ask, for example: *"Use the Consulting OS to frame this problem and give me a day-one answer: ..."*
+
+Request headers are still rolling out, so some Claude accounts don't show that section yet. If yours doesn't, email jonathan@aineversleeps.net.
 
 ### What's inside
 
