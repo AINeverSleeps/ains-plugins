@@ -1,9 +1,9 @@
 {
   "name": "consulting-os",
   "displayName": "Consulting OS",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "license": "MIT",
-  "description": "Jonathan Chan's consulting method library for Claude: 51 methods, from framing the problem to the final deck, served live from AI Never Sleeps and kept current every time the models change. Sign in with your Consulting OS membership.",
+  "description": "Jonathan Chan's consulting method library for Claude: 59 methods, from framing the problem to the final deck and the deal, served live from AI Never Sleeps and kept current every time the models change. Sign in with your Consulting OS membership.",
   "author": {
     "name": "AI Never Sleeps (Jonathan Chan)",
     "email": "jonathan@aineversleeps.net",
@@ -17,7 +17,9 @@
     "problem-solving",
     "storylining",
     "financial-analysis",
-    "proposals"
+    "proposals",
+    "mergers-and-acquisitions",
+    "corporate-development"
   ],
   "documentationUrl": "https://www.aineversleeps.net/consulting-os/setup",
   "supportUrl": "https://www.aineversleeps.net/consulting-os/setup",

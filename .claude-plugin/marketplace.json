@@ -10,7 +10,7 @@
     {
       "name": "consulting-os",
       "source": "./plugins/consulting-os",
-      "description": "Consulting OS: 51 consulting methods, from the day-one answer to the final deck, served live to Claude and kept current. Sign in with a Consulting OS membership."
+      "description": "Consulting OS: 59 consulting methods, from the day-one answer to the final deck and the deal, served live to Claude and kept current. Sign in with a Consulting OS membership."
     }
   ]
 }

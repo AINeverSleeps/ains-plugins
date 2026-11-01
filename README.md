@@ -4,7 +4,7 @@ Claude plugins from [AI Never Sleeps](https://www.aineversleeps.net) (Jonathan C
 
 ## Consulting OS
 
-The consulting method library from The Consulting AI Operating System. It covers 51 methods, from framing a vague brief and building the issue tree to the model, the storyline and the final deck. The methods are served live to Claude from AI Never Sleeps, so every member always has the current version. When the models change, the library changes, and there's nothing to reinstall.
+The consulting method library from The Consulting AI Operating System. It covers 59 methods, from framing a vague brief and building the issue tree to the model, the storyline and the final deck, plus an M&A and corporate development module. The methods are served live to Claude from AI Never Sleeps, so every member always has the current version. When the models change, the library changes, and there's nothing to reinstall.
 
 **Requires a Consulting OS membership.** It's included with [The Consulting AI Operating System](https://www.aineversleeps.net/consulting-ai-os), or [on its own](https://www.aineversleeps.net/consulting-os). You sign in with the email you bought with. Full guide: [aineversleeps.net/consulting-os/setup](https://www.aineversleeps.net/consulting-os/setup).
 

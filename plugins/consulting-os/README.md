@@ -1,6 +1,6 @@
 # Consulting OS
 
-Jonathan Chan's consulting method library for Claude, from [AI Never Sleeps](https://www.aineversleeps.net). It covers 51 methods, from framing a vague brief and building the issue tree to the model, the storyline and the final deck. Each method is a full playbook: when to use it, the steps, worked examples and the checks to run before anything reaches a client.
+Jonathan Chan's consulting method library for Claude, from [AI Never Sleeps](https://www.aineversleeps.net). It covers 59 methods, from framing a vague brief and building the issue tree to the model, the storyline and the final deck, plus an M&A and corporate development module that runs from portfolio choices and target screening to the deal and the integration. Each method is a full playbook: when to use it, the steps, worked examples and the checks to run before anything reaches a client.
 
 The methods are served live to Claude from AI Never Sleeps, so every member always has the current version. When the models change, the library changes, and there's nothing to reinstall.
 

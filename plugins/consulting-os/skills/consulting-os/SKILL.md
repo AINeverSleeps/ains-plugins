@@ -1,6 +1,6 @@
 ---
 name: consulting-os
-description: "Use for any consulting or advisory work: framing a vague brief, hypotheses and issue trees, market sizing, research and interview synthesis, models, business cases and valuation, proposals and statements of work, storylines, ghost decks and slides, steering packs, workshops and client management. Loads the right method from the Consulting OS library and follows it."
+description: "Use for any consulting or advisory work: framing a vague brief, hypotheses and issue trees, market sizing, research and interview synthesis, models, business cases and valuation, proposals and statements of work, storylines, ghost decks and slides, steering packs, workshops and client management, and M&A and corporate development: portfolio choices, target screening, deal valuation and synergies, investment committee papers, due diligence, negotiation and deal structure, post-merger integration, alliances and minority stakes. Loads the right method from the Consulting OS library and follows it."
 ---
 
 # Consulting OS
@@ -12,7 +12,7 @@ You have the Consulting OS connector (the `consulting-os` MCP server): Jonathan 
 1. **Pick the method.** If the user names one, use it. Otherwise call `list_methods` once and choose the best fit from each method's "when to use" line. The catalog below helps you shortlist. `find_methods` is only a keyword shortcut.
 2. **Load it.** Call `get_method` with the method name and follow it step by step: ask for the inputs it asks for, calculate in code where it says to, and apply its evidence controls.
 3. **Load supporting files only when needed.** When the method refers to its toolkit (templates, checklists, drills) or decision controls, call `get_method_file` with the path it lists, such as `references/toolkit.md`.
-4. **Chain methods for bigger jobs.** A typical engagement runs: `hypothesis-driven-problem-solving` → `structured-thinking-mece` → research and analysis methods → `getting-to-the-so-what` → `storylining` → `ghost-deck-and-deck-review`.
+4. **Chain methods for bigger jobs.** A typical engagement runs: `hypothesis-driven-problem-solving` → `structured-thinking-mece` → research and analysis methods → `getting-to-the-so-what` → `storylining` → `ghost-deck-and-deck-review`. A deal runs: `corporate-portfolio-management` → `acquisition-target-screening` → `deal-valuation-and-synergies` → `investment-committee-papers` → `ma-deal-process` → `deal-negotiation-and-structuring` → `post-merger-integration`.
 
 ## Non-negotiables
 
@@ -28,6 +28,7 @@ You have the Consulting OS connector (the `consulting-os` MCP server): Jonathan 
 - **client-management**: `client-capability-building`, `coaching-feedback-and-reviews`, `engagement-close`, `execution-governance`, `personal-effectiveness`, `project-leadership-and-workplanning`, `stakeholder-and-change-management`, `status-and-steering-reports`, `working-with-clients`
 - **communication**: `delivery-and-discussion`, `effective-slidewriting`, `executive-presence`, `ghost-deck-and-deck-review`, `meeting-facilitation`, `storylining`, `written-communication`
 - **consulting-methodology**: `back-of-envelope-analysis`, `fast-knowledge-search`, `getting-to-deeper-insight`, `getting-to-the-so-what`, `hypothesis-driven-problem-solving`, `issue-analysis-flow-logic`, `option-comparison`, `structured-thinking-mece`
+- **corporate-development**: `acquisition-target-screening`, `corporate-portfolio-management`, `deal-negotiation-and-structuring`, `deal-valuation-and-synergies`, `investment-committee-papers`, `ma-deal-process`, `post-merger-integration`, `strategic-alliances-and-minority-stakes`
 - **finance**: `commercial-due-diligence`, `financial-analysis-basics`, `investment-analysis-capital-budgeting`, `valuation-and-dcf`
 - **functional-expertise**: `ai-opportunity-assessment`, `business-unit-strategy`, `cost-reduction-program`, `game-theory-and-scenario-planning`, `lean-operations`, `organisation-design`, `pricing-strategy`, `sales-force-effectiveness`
 
